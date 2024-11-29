@@ -23,7 +23,7 @@
             name: Deploy to Render Staging
             command: |
               echo "Deploying to Render Staging"
-              curl $RENDER_STAGING_DEPLOYHOOK
+              curl $RENDER_DEPLOY_STAGING_HOOK
     deploy-to-render-production:
       docker:
         - image: cimg/base:current
