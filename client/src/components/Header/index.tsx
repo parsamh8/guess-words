@@ -4,6 +4,7 @@ const Header = () => {
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         <h1 className="m-0">60's Hollywood Only</h1>
         <p className="m-0">Guess the movie title!</p>
+        <p>Deployed Via CirclCI</p>
       </div>
     </header>
   );
